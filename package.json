@@ -1,0 +1,43 @@
+{
+  "name": "sd-api",
+  "version": "1.0.0",
+  "description": "SD restful api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulomenezes/sd.api"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "medhelp"
+  ],
+  "author": "Kenethy Phillip e Paulo Menezes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paulomenezes/sd/issues"
+  },
+  "homepage": "https://github.com/paulomenezes/sd#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cors": "^2.7.1",
+    "crypto": "0.0.3",
+    "express": "^4.13.4",
+    "jsonfile": "^2.3.1",
+    "jsonwebtoken": "^6.2.0",
+    "mongoose": "^4.4.12",
+    "mongoose-encrypt": "0.0.1-alpha.3",
+    "morgan": "^1.7.0",
+    "multer": "^1.1.0",
+    "sha512": "0.0.1",
+    "token": "0.0.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
